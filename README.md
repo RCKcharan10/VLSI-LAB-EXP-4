@@ -173,6 +173,21 @@ endmodule
 
 OUTPUT WAVEFORM
 
+# D Flip Flop
+
+![D Flip Flop](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/0aeeb1ce-64b7-48e0-bcbd-efbf6bf0010d)
+
+# JK Flip flop
+
+![JK Flip flop](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/f58c6b39-81b3-400f-b2e6-5df43dd4f4ce)
+
+# SR Flip Flop
+
+![SR Flip Flop](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/c3f2b9c5-897f-48ef-b12d-2f446de70cb8)
+
+# T Flip FLop
+
+![T Flip Flop](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/5bae902d-bc9e-48f1-b32c-fdb06441a797)
 
 RESULT
 
