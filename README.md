@@ -2,7 +2,7 @@
 SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
 AIM: 
- To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
+ To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023.1.
 
 APPARATUS REQUIRED:
 Vivado 2023.1
