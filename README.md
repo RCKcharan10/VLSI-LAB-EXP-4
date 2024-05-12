@@ -1,13 +1,12 @@
-# VLSI-LAB-EXP-4
-SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
+# 4.SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
-AIM: 
+# AIM: 
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023.1.
 
-APPARATUS REQUIRED:
+# APPARATUS REQUIRED:
 Vivado 2023.1
 
-Procedure:
+# Procedure:
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -190,25 +189,65 @@ counter_output <= 0;
 end
 endmodule
 ```
-
+# UP-DOWN COUNTER
+```
+module updown_counter(clk,rst,updown,out);
+input clk,rst,updown;
+output reg [3:0]out;
+always@(posedge clk)
+begin
+if (rst==1)
+out=4'b0000;
+else if(updown==1)
+out=out+1;
+else
+out=out-1;
+end
+endmodule
+```
 OUTPUT WAVEFORM
 
 # D Flip Flop
 
 ![D Flip Flop](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/0aeeb1ce-64b7-48e0-bcbd-efbf6bf0010d)
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/49b17a40-5e44-4b19-9ade-7e72da51b51c)
+
 
 # JK Flip flop
 
 ![JK Flip flop](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/f58c6b39-81b3-400f-b2e6-5df43dd4f4ce)
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/f8278a33-6719-4434-b2cf-752a62d60552)
+
 
 # SR Flip Flop
 
 ![SR Flip Flop](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/c3f2b9c5-897f-48ef-b12d-2f446de70cb8)
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/48ce566a-5f76-41c5-a147-39353db15a83)
+
 
 # T Flip FLop
 
 ![T Flip Flop](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/5bae902d-bc9e-48f1-b32c-fdb06441a797)
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/d4b02fe0-f188-408b-be45-3dfa967359f0)
 
-RESULT:
-Thus the simulation and implementation of sequential logic gates is done and verified.
 
+# Mod 10 Counter
+
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/e1f376cc-deb6-4ea8-8f4d-0d347429447f)
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/83841e49-e0f4-446f-931a-0c3501d5ed0f)
+
+
+# Ripple Carry Counter
+
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/4d0b64e6-9811-4969-bebd-aaa05597da58)
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/e12abde7-abf5-4075-b5bb-0d99e499aede)
+
+
+# Up Down Counter
+
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/d629cb59-9ff8-42d8-9964-00c03b8bc3a8)
+![image](https://github.com/RCKcharan10/VLSI-LAB-EXP-4/assets/117891438/8a98119f-44b4-4a45-8807-098f03ab6c4a)
+
+
+# RESULT:
+Hence The simulation and synthesis of SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023 is done and output verified successfully.
