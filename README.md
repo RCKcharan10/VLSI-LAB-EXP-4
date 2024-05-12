@@ -26,9 +26,7 @@ Vivado 2023.1
 9. View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
 
 
-Spartan6 FPGA
-
-**LOGIC DIAGRAM**
+# LOGIC DIAGRAM
 
 SR FLIPFLOP
 
